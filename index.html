@@ -9,27 +9,27 @@
 <body class="px-8">
   <!-- navbar -->
    <div>
-    <nav class="flex py-2 px-16 justify-between">
+    <nav class="flex py-2 px-16 justify-between h-16">
         <!-- logo -->
         <div>
-            <img src="./img/logo.svg" alt="" class="h-30">
+            <img src="./img/logo.svg" alt="" class="h-30 absolute">
         </div>
         <!-- the rest of nav bar -->
-        <div class="flex justify-between">
+        <div class="flex justify-between py-3">
             <!-- links -->
-            <div class="flex justify-between">
-                <div>Research</div>
-                <div>Study</div>
-                <div>About LMU</div>
+            <div class="flex justify-between align-middle">
+                <div class="font-bold hover:text-green-900 px-8">Research</div>
+                <div class="font-bold hover:text-green-900 px-8">Study</div>
+                <div class="font-bold hover:text-green-900 px-8">About LMU</div>
             </div>
             <!-- other nav components -->
-            <div class="flex justify-between">
-                <div class="bg-gray-500 h-16 w-px"></div>
-                <div>DE</div>
-                <div class="bg-gray-500 h-16 w-px"></div>
-                <div><img src="./img/search.png" alt="" class="h-8"></div>
-                <div class="bg-gray-500 h-16 w-px"></div>
-                <div class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="flex justify-between align-middle">
+                <div class="bg-gray-300 h-10 w-px"></div>
+                <div class="font-bold hover:text-green-900 px-8 cursor-pointer">DE</div>
+                <div class="bg-gray-300 h-10 w-px"></div>
+                <div><img src="./img/search.png" alt="" class="h-6 px-8 cursor-pointer"></div>
+                <div class="bg-gray-300 h-10 w-px"></div>
+                <div class="space-y-1 cursor-pointer z-20 px-8">
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
@@ -38,5 +38,16 @@
         </div>
     </nav>
    </div>
+   <!-- section1 -->
+    <div>
+        <img src="./img/firstBgImg.jpg" alt="" class="z-10">
+        <div class="grid grid-cols-4 w-full">
+            <div class="col-start-3 col-span-2 row-span-2 bg-white"></div>
+            <div class="bg-gray-900 text-white font-bold"></div>
+            <div></div>
+            <div class="col-start-2 bg-gray-900 text-white font-bold"></div>
+            <div class="bg-green-700"></div>
+        </div>
+    </div>
 </body>
 </html>
